@@ -28,3 +28,9 @@ def numbers (n):
 numbers(a)
 numbers(b)
 numbers(c)
+#problem 4
+a=[1,2,3]
+def print_list(list):
+    for x in list:
+        print(x)
+print_list(a)
