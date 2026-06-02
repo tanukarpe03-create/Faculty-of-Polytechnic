@@ -1,3 +1,12 @@
+#problem1
+t=1
+n=0
+while n<10:
+  t+=n
+  n+=1
+  print(t)
+  
+#problem2 
 a=4
 b=9
 c=19
