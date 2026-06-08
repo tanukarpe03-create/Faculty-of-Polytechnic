@@ -29,4 +29,16 @@ for ch in letters:
         consonants.add(ch)
 
 print("Vowels Set =", vowels)
-print("Consonants Set =", consonants)
+print("Consonants Set =", consonants) 
+
+#problem
+
+num = 10
+guess = int(input("Guess a number 1 to 10: "))
+
+if guess == num:
+    print("Correct guess")
+elif guess < num:
+    print("Too low")
+else:
+    print("Too high")
