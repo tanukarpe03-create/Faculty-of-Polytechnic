@@ -52,3 +52,12 @@ def classify_grade(score):
           print("E")
 score=int(input("enter a num:")) 
 classify_grade(score)
+
+#problem5
+def leap_year(y):
+    if(y%4==0 and y%100!=0):
+        print("True")
+    else:
+        print("false")
+year=int(input("enter a year:"))
+leap_year(year)
