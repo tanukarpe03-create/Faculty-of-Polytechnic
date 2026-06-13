@@ -61,3 +61,20 @@ def leap_year(y):
         print("false")
 year=int(input("enter a year:"))
 leap_year(year)
+
+#problem6
+def sum_to_n(n):
+    total=0
+    for x in range(1, n + 1):
+          total += x
+    return total
+
+n=int(input("Enter a num: "))
+result=sum_to_n(n)
+print(result)
+
+#problem7
+def table(n):
+    for i in range(1, 11): 
+        print(n*i)
+table(7)
